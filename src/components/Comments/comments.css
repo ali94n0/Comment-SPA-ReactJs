@@ -1,0 +1,30 @@
+section {
+  display: flex;
+  /* justify-content: space-around; */
+  padding: 10px;
+}
+.allComments {
+  display: flex;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: fit-content;
+}
+.allComments::-webkit-scrollbar {
+  display: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.allComments a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  min-height: 200px;
+  background-color: #eef2ff;
+  color: #581c87;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 10px;
+}
